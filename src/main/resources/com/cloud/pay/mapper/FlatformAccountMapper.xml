@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.pay.mapper.FlatformAccountMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.FlatformAccount" >
+    <id column="u_id" property="uId" jdbcType="INTEGER" />
+    <result column="u_name" property="uName" jdbcType="VARCHAR" />
+    <result column="u_login_name" property="uLoginName" jdbcType="VARCHAR" />
+    <result column="u_login_pwd" property="uLoginPwd" jdbcType="VARCHAR" />
+    <result column="job" property="job" jdbcType="VARCHAR" />
+    <result column="des" property="des" jdbcType="VARCHAR" />
+    <result column="avatar_url" property="avatarUrl" jdbcType="VARCHAR" />
+    <result column="mobile" property="mobile" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="last_login_time" property="lastLoginTime" jdbcType="VARCHAR" />
+    <result column="last_login_ip" property="lastLoginIp" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="ag_id" property="agId" jdbcType="INTEGER" />
+    <result column="level" property="level" jdbcType="INTEGER" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="delete_time" property="deleteTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.cloud.pay.entity.FlatformAccount" extends="BaseResultMap">
+    <association property="flatformAdminGroup" javaType="com.cloud.pay.entity.FlatformAdminGroup">
+        <result column="ag_id" property="agId"/>
+        <result column="ag_name" property="agName"/>
+    </association>
+
+  </resultMap>
+  <sql id="Base_Column_List" >
+    u_id, u_name, u_login_name, u_login_pwd, mobile, email, last_login_time,
+    last_login_ip,  status, ag_id, level, delete_status, delete_time
+  </sql>
+  <sql id="Many_Column_List" >
+    flatform_account.u_id, flatform_account.u_name,  flatform_account.u_login_name, flatform_account.u_login_pwd, flatform_account.mobile,  flatform_account.email, flatform_account.last_login_time,
+    flatform_account.last_login_ip,  flatform_account.status, flatform_account.ag_id, flatform_account.level, flatform_account.delete_status, flatform_account.delete_time,flatformAdminGroup.ag_id,flatformAdminGroup.ag_name
+  </sql>
+  <select id="findByAccount" parameterType="String" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"/>
+        from flatform_account where u_login_name = #{account} and delete_status = 0 and status = 0
+  </select>
+  <insert id="insert" parameterType="com.cloud.pay.entity.FlatformAccount" >
+    insert into flatform_account
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="uId != null" >
+        u_id,
+      </if>
+      <if test="uName != null" >
+        u_name,
+      </if>
+      <if test="job != null" >
+        job,
+      </if>
+      <if test="des != null" >
+        des,
+      </if>
+      <if test="avatarUrl != null" >
+        avatar_url,
+      </if>
+      <if test="uLoginName != null" >
+        u_login_name,
+      </if>
+      <if test="uLoginPwd != null" >
+        u_login_pwd,
+      </if>
+      <if test="mobile != null" >
+        mobile,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="lastLoginTime != null" >
+        last_login_time,
+      </if>
+      <if test="lastLoginIp != null" >
+        last_login_ip,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="agId != null" >
+        ag_id,
+      </if>
+      <if test="level != null" >
+        level,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="deleteTime != null" >
+        delete_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="uId != null" >
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="uName != null" >
+        #{uName,jdbcType=VARCHAR},
+      </if>
+
+      <if test="uLoginName != null" >
+        #{uLoginName,jdbcType=VARCHAR},
+      </if>
+      <if test="uLoginPwd != null" >
+        #{uLoginPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="job != null" >
+        #{job,jdbcType=VARCHAR},
+      </if>
+      <if test="des != null" >
+        #{des,jdbcType=VARCHAR},
+      </if>
+      <if test="avatarUrl != null" >
+        #{avatarUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginTime != null" >
+        #{lastLoginTime,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginIp != null" >
+        #{lastLoginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="agId != null" >
+        #{agId,jdbcType=INTEGER},
+      </if>
+      <if test="level != null" >
+        #{level,jdbcType=INTEGER},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="update" parameterType="com.cloud.pay.entity.FlatformAccount" >
+    update flatform_account
+    <set >
+      <if test="uName != null" >
+        u_name = #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uLoginName != null" >
+        u_login_name = #{uLoginName,jdbcType=VARCHAR},
+      </if>
+      <if test="uLoginPwd != null" >
+        u_login_pwd = #{uLoginPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="job != null" >
+        job=#{job,jdbcType=VARCHAR},
+      </if>
+      <if test="des != null" >
+        des=#{des,jdbcType=VARCHAR},
+      </if>
+      <if test="avatarUrl != null" >
+        avatar_url=#{avatarUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginTime != null" >
+        last_login_time = #{lastLoginTime,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginIp != null" >
+        last_login_ip = #{lastLoginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="agId != null" >
+        ag_id = #{agId,jdbcType=INTEGER},
+      </if>
+      <if test="level != null" >
+        level = #{level,jdbcType=INTEGER},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where u_id = #{uId,jdbcType=INTEGER}
+  </update>
+  <update id="delete" parameterType="com.cloud.pay.entity.FlatformAccount">
+    update flatform_account set delete_status=1,delete_time=#{deleteTime} where u_id = #{uId}
+  </update>
+  <select id="findAll" parameterType="com.cloud.pay.entity.FlatformAccount" resultMap="ResultMapWithBLOBs">
+        select <include refid="Many_Column_List" />
+        from flatform_account,flatform_admin_group as flatformAdminGroup
+        <where>
+          <if test="uLoginName!=null and uLoginName!=''">
+              u_login_name like #{uLoginName}
+          </if>
+          <if test="mobile!=null and mobile!=''">
+              mobile like #{mobile}
+          </if>
+          flatformAdminGroup.ag_id = flatform_account.ag_id and flatform_account.delete_status = 0
+        </where>
+
+  </select>
+  <select id="count" parameterType="com.cloud.pay.entity.FlatformAccount" resultType="Integer">
+        select count(1) from flatform_account,flatform_admin_group as flatformAdminGroup
+        <where>
+          <if test="uLoginName!=null and uLoginName!=''">
+            u_login_name like #{uLoginName}
+          </if>
+          <if test="mobile!=null and mobile!=''">
+            mobile like #{mobile}
+          </if>
+          flatformAdminGroup.ag_id = flatform_account.ag_id and flatform_account.delete_status = 0
+        </where>
+
+  </select>
+  <select id="findById" parameterType="Integer" resultMap="ResultMapWithBLOBs">
+    select <include refid="Base_Column_List"/> from flatform_account  where u_id = #{id}
+  </select>
+
+</mapper>

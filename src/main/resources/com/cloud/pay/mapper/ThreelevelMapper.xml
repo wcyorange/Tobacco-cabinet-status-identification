@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.pay.mapper.ThreelevelMapper">
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.Threelevel">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parent_id" jdbcType="INTEGER" property="parentId" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, parent_id, level
+  </sql>
+	<select id ="threelevel" resultMap="BaseResultMap">
+			select * from threelevel
+	</select>
+	<select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select tt.id, tt.name, tt.parent_id, tt.level from threelevel t,threelevel tt 
+		<where> t.id=#{id} and t.id=tt.parent_id</where>
+	</select>
+	<delete id="deletebyid" parameterType="java.lang.Integer">
+    delete from threelevel
+    where id = #{id}
+   </delete>
+   <select id="findParentId" resultMap="BaseResultMap">
+   		select * from threelevel  where parent_id = #{id}
+   </select>
+   <select id="findById" resultMap="BaseResultMap">
+   		select <include refid="Base_Column_List"/> from threelevel where id = #{id}
+   </select>
+</mapper>
