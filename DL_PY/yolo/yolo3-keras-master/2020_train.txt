@@ -1,0 +1,1 @@
+E:\pycharmnote\python\yanchang\yolo_train_check\yolo3-keras-master/VOCdevkit/VOC2020/JPEGImages/img.bmp 148,62,575,957,0
