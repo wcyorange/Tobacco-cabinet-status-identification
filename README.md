@@ -8,9 +8,11 @@
 ![数据](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/date1.png)
 
 ### 烟草柜传送带状态检测
-烟柜传送带状态检测主要分为光照条件或者灰度条件下的空料、满料、含料（送料）的状态检测，以往需要工人攀爬烟柜进行检测，存在巨大的安全隐患及公司需要支出巨大的成本，
+烟柜传送带状态检测主要分为光照条件或者灰度条件下的空料、满料、含料（送料）的状态检测，以往需要工人攀爬烟柜进行生产状态检测，存在巨大的安全隐患及公司需要支出巨大的成本，
 ![烟柜传送带状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/classification.png)
 
 
-
+### 异物状态检测
+异物状态检测在生产之前进行，主要检测烟柜内是否有人或者工人清洁后遗忘的扫把、拖把，若存在不仅会造成安全事故，还有可能导致该批次烟丝报废，造成巨大的经济损失。
+![烟柜异物状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/yiwu.png)
 
