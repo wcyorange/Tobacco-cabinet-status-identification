@@ -5,10 +5,11 @@
 
 ### 数据介绍
 该项目所有数据都是从工业摄像机进行采集，数据包括烟柜传送带状态数据（空料、满料、含料状态）、异物数据（人、扫把、拖把）、加料状态数据
-![图片名称](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/date1.png)
+![数据](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/date1.png)
 
-
-
+### 烟草柜传送带状态检测
+烟柜传送带状态检测主要分为光照条件或者灰度条件下的空料、满料、含料（送料）的状态检测，以往需要工人攀爬烟柜进行检测，存在巨大的安全隐患及公司需要支出巨大的成本，
+![烟柜传送带状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/classification.png)
 
 
 
