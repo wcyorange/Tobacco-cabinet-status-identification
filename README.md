@@ -5,7 +5,7 @@
 
 ### 数据介绍
 该项目所有数据都是从工业摄像机进行采集，数据包括烟柜传送带状态数据（空料、满料、含料状态）、异物数据（人、扫把、拖把）、加料状态数据
-![图片名称](https://www.baidu.com/img/bd_logo1.png)
+![图片名称](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/date1.png)
 
 
 
