@@ -14,8 +14,12 @@
 
 ### 加料状态检测
 若烟柜中不存在异物，则进行加料状态检测，加料状态时生产状态的重要过程，通过加料机将烟料送入烟柜中。
-![烟柜异物状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/yiwu.png)
+![烟柜异物状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/feed.png)
 
 ### 烟草柜传送带状态检测
-烟柜传送带状态检测主要分为光照条件或者灰度条件下的空料、满料、含料（送料）的状态检测，以往需要工人攀爬烟柜进行生产状态检测，存在巨大的安全 隐患及公司需要支出巨大的成本，
-![烟柜传送带状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/classification.png)
+烟柜传送带状态检测主要分为光照条件或者灰度条件下的空料、满料、含料（送料）的状态检测，以往需要工人攀爬烟柜进行生产状态检测，存在巨大的安全的隐患及公司需要支出巨大的成本，因此该项目通过工业视觉检测，实现烟草生产自动化监测。
+![加料状态检测](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/classification.png)
+
+### web页面展示
+该项目通过web页面与用户进行交互，工人可以直接通过浏览器对烟柜状态进行检测，实现烟草自动化加工。
+![web页面展示](https://github.com/wcyorange/Tobacco-cabinet-status-identification/tree/main/img/web页面.png)
