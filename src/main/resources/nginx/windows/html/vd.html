@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>播放页面</title>
+    </head>
+    <body>
+        <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+		<div style="position: relative">
+        <video style="height: 400px;width: 600px;" id="videoElement" controls autoplay></video>
+        </div>
+		<script>
+            var flvPlayer = null;
+            if (flvjs.isSupported()) {
+                var videoElement = document.getElementById('videoElement');
+                flvPlayer = flvjs.createPlayer({
+                    type: 'flv',
+					"islive":true,
+                    // 8080 对应Nginx监听的端口
+                    // rtmpLive 对应Nginx的路径
+					//localhost:1935/live/room
+                    url: 'http://127.0.0.1:8080/live?port=1935&app=live&stream=room'
+                });
+                flvPlayer.attachMediaElement(videoElement);
+                flvPlayer.load();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,241 @@
+10.10.10.217 - - [25/Mar/2020:16:18:24 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:18:24 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:18:25 +0800] "GET /stat HTTP/1.1" 200 594 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:18:25 +0800] "GET /stat.xsl HTTP/1.1" 200 12306 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:18:25 +0800] "GET /favicon.ico HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:18:45 +0800] "GET /stat HTTP/1.1" 200 998 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:18:45 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 [25/Mar/2020:16:18:53 +0800] PLAY "live" "100137901647-4" "" - 391 436 "" "LNX 9,0,124,2" (11s)
+10.10.10.217 - - [25/Mar/2020:16:19:07 +0800] "GET /stat HTTP/1.1" 200 599 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:19:07 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:19:43 +0800] "GET /stat HTTP/1.1" 200 593 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:19:44 +0800] "GET /favicon.ico HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:19:48 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:19:48 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:19:49 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:19:49 +0800] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:19:49 +0800] "GET /favicon.ico HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:20:15 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:20:16 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:20:16 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:20:17 +0800] "GET /stat HTTP/1.1" 200 594 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:20:17 +0800] "GET /favicon.ico HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 [25/Mar/2020:16:36:39 +0800] PUBLISH "live" "dsdhz" "" - 9456189 633 "" "FMLE/3.0 (compatible; Lavf58.35.101)" (1m 16s)
+10.10.10.217 - - [25/Mar/2020:16:36:52 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+10.10.10.217 - - [25/Mar/2020:16:36:53 +0800] "GET /stat HTTP/1.1" 200 1016 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:36:53 +0800] "GET /favicon.ico HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 [25/Mar/2020:16:37:06 +0800] PLAY "live" "dsdhz" "" - 401 9762061 "" "LNX 9,0,124,2" (1m 39s)
+10.10.10.217 - - [25/Mar/2020:16:37:11 +0800] "GET /stat HTTP/1.1" 200 1550 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:37:11 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:37:16 +0800] "GET /stat HTTP/1.1" 200 1581 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:37:16 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 [25/Mar/2020:16:37:35 +0800] PLAY "live" "dsdhz" "" - 385 4079541 "" "LNX 9,0,124,2" (27s)
+10.10.10.217 [25/Mar/2020:16:37:38 +0800] PUBLISH "live" "dsdhz" "" - 4520512 753 "" "FMLE/3.0 (compatible; Lavf58.35.101)" (35s)
+10.10.10.217 - - [25/Mar/2020:16:39:05 +0800] "GET /stat HTTP/1.1" 200 609 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.10.10.217 - - [25/Mar/2020:16:39:05 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://10.10.10.217:8080/stat.xsl" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [09/Aug/2020:10:39:50 +0800] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:39:50 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:40:22 +0800] "GET /index.html HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:40:26 +0800] "GET /index.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:49:25 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "https://blog.csdn.net/qq_34239851/article/details/107078336" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:10:49:40 +0800] PUBLISH "live" "room" "" - 27870022 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (36s)
+127.0.0.1 - - [09/Aug/2020:10:54:09 +0800] "GET /live/room?port=1985 HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:54:15 +0800] "GET /live/room?port=1985 HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:54:19 +0800] "GET /live/room?port=1985 HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:10:55:57 +0800] PUBLISH "live" "room" "" - 91677993 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (2m 0s)
+127.0.0.1 - - [09/Aug/2020:10:57:29 +0800] "GET /live/room?port=1985&app=myapp&stream=mystream HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:10:59:09 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:10:59:24 +0800] PUBLISH "live" "room" "" - 26087598 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (33s)
+127.0.0.1 - - [09/Aug/2020:11:00:50 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "https://blog.csdn.net/qq_34239851/article/details/107078336" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:01:13 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:01:22 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:01:23 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:11:01:33 +0800] PUBLISH "live" "room" "" - 24890497 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (32s)
+127.0.0.1 - - [09/Aug/2020:11:05:24 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:05:30 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:06:07 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:07:47 +0800] "GET /index.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:09:03 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:09:05 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:09:22 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:11:09:23 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://127.0.0.1:8080/live/room?port=1985&app=live&stream=room" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:11:09:30 +0800] PUBLISH "live" "room" "" - 30531488 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (39s)
+127.0.0.1 - - [09/Aug/2020:11:19:20 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:19:22 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.0" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:20:00 +0800] "GET /live/room?port=1985 HTTP/1.1" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:20:02 +0800] "GET /live/room?port=1985 HTTP/1.0" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:20:11 +0800] "GET /live/room HTTP/1.1" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:20:13 +0800] "GET /live/room HTTP/1.0" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:39:37 +0800] "GET /live/room HTTP/1.1" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:39:39 +0800] "GET /live/room HTTP/1.0" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:39:59 +0800] "GET /live/101 HTTP/1.1" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 - - [09/Aug/2020:11:40:01 +0800] "GET /live/101 HTTP/1.0" 404 154 "-" "VLC/3.0.10 LibVLC/3.0.10"
+127.0.0.1 [09/Aug/2020:11:41:36 +0800] PLAY "live" "101" "" - 425 25849811 "" "LNX 9,0,124,2" (1m 10s)
+127.0.0.1 [09/Aug/2020:11:44:13 +0800] PLAY "live" "101" "" - 550 90008917 "" "LNX 9,0,124,2" (1m 56s)
+127.0.0.1 [09/Aug/2020:11:46:35 +0800] PUBLISH "live" "101" "" - 239893106 629 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (5m 33s)
+127.0.0.1 [09/Aug/2020:11:46:40 +0800] PLAY "live" "101" "" - 488 63467650 "" "LNX 9,0,124,2" (1m 38s)
+127.0.0.1 [09/Aug/2020:15:25:41 +0800] PUBLISH "live" "room" "" - 42553308 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (56s)
+127.0.0.1 [09/Aug/2020:15:26:07 +0800] PLAY "live" "101" "" - 366 436 "" "LNX 9,0,124,2" (35s)
+127.0.0.1 [09/Aug/2020:15:26:23 +0800] PLAY "live" "101" "" - 366 436 "" "LNX 9,0,124,2" (10s)
+127.0.0.1 - - [09/Aug/2020:15:28:20 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:21:20 +0800] "GET /live/room?port=1985&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:22:08 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:23:41 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:25:39 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:16:37:29 +0800] PUBLISH "live" "room" "" - 3196637758 517 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (1h 11m 33s)
+127.0.0.1 [09/Aug/2020:16:37:44 +0800] PLAY "live" "room" "" - 7878 3180287098 "" "LNX 9,0,124,2" (1h 11m 15s)
+127.0.0.1 [09/Aug/2020:16:39:17 +0800] PUBLISH "live" "room" "" - 75767624 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (1m 40s)
+127.0.0.1 [09/Aug/2020:16:39:26 +0800] PLAY "live" "room" "" - 505 67520344 "" "LNX 9,0,124,2" (1m 36s)
+127.0.0.1 - - [09/Aug/2020:16:41:41 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:16:42:57 +0800] PUBLISH "live" "room" "" - 69500849 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (2m 6s)
+127.0.0.1 - - [09/Aug/2020:16:45:31 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:16:46:09 +0800] PLAY "live" "room" "" - 844 187671554 "" "LNX 9,0,124,2" (5m 0s)
+127.0.0.1 [09/Aug/2020:16:46:11 +0800] PUBLISH "live" "room" "" - 141593648 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (3m 8s)
+127.0.0.1 - - [09/Aug/2020:16:51:45 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:52:02 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:54:56 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:55:05 +0800] "GET /video.html HTTP/1.1" 200 2579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:55:12 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://localhost:8080/video.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:57:02 +0800] "GET /flv/index.html HTTP/1.1" 200 8589 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:57:02 +0800] "GET /flv/demo.css HTTP/1.1" 200 1609 "http://localhost:8080/flv/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:57:02 +0800] "GET /flv/flvjs/flv.js HTTP/1.1" 200 632546 "http://localhost:8080/flv/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:57:02 +0800] "GET /flv/flvjs/flv.js.map HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:57:59 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://localhost:8080/flv/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:58:44 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://localhost:8080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:58:49 +0800] "GET /video.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:16:58:54 +0800] "GET /live/room?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://localhost:8080/video.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:17:04:31 +0800] PUBLISH "live" "room" "" - 264155880 517 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (6m 3s)
+127.0.0.1 [09/Aug/2020:17:05:31 +0800] PLAY "live" "room" "" - 816 175708025 "" "LNX 9,0,124,2" (4m 57s)
+192.168.52.51 - - [09/Aug/2020:17:29:29 +0800] "GET /vd.html HTTP/1.1" 200 1089 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:29:31 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:29:33 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:29:36 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:30:15 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:30:56 +0800] "GET /favicon.ico HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:17:32:23 +0800] "GET /video.html HTTP/1.1" 200 2579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:02:04 +0800] PLAY "live" "room" "" - 396 11178417 "" "LNX 9,0,124,2" (32s)
+127.0.0.1 [09/Aug/2020:18:02:07 +0800] PUBLISH "live" "room" "" - 13140640 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (16s)
+192.168.52.51 - - [09/Aug/2020:18:02:15 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:02:15 +0800] "GET /test HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:02:44 +0800] "GET /vd.html HTTP/1.1" 200 976 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:02:44 +0800] "GET /rtmpLive?app=live&stream=rtmpStream HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:06:06 +0800] "GET /vd.html HTTP/1.1" 200 1009 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:06:06 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:06:44 +0800] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:06:49 +0800] "GET /vd.html HTTP/1.1" 200 1013 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:06:49 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:07:56 +0800] PUBLISH "live" "room" "" - 98271468 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (2m 14s)
+192.168.52.51 - - [09/Aug/2020:18:13:23 +0800] "GET /vd.html HTTP/1.1" 200 1008 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:13:24 +0800] "GET /?port=1935&app=live&stream=room HTTP/1.1" 200 612 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:13:49 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:14:08 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:14:13 +0800] PUBLISH "live" "room" "" - 8782843 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (10s)
+192.168.52.51 - - [09/Aug/2020:18:14:17 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:15:15 +0800] "GET /vd.html HTTP/1.1" 200 1013 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:15:16 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 404 556 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:16:19 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:17:19 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 000 0 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 [09/Aug/2020:18:17:19 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 0 "" "flv_live 1.1" (1m 0s)
+192.168.52.51 - - [09/Aug/2020:18:18:19 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 000 0 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 [09/Aug/2020:18:18:19 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 0 "" "flv_live 1.1" (1m 0s)
+192.168.52.51 - - [09/Aug/2020:18:18:28 +0800] "GET /vd.html HTTP/1.1" 200 1009 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:19:28 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 000 0 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:19:28 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 0 "" "flv_live 1.1" (1m 0s)
+192.168.52.51 - - [09/Aug/2020:18:26:19 +0800] "GET /vd.html HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:26:32 +0800] "GET /vd.html HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:33:46 +0800] "GET /stat HTTP/1.1" 200 593 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:33:46 +0800] "GET /stat.xsl HTTP/1.1" 200 12306 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:33:56 +0800] "GET /stat HTTP/1.1" 200 1319 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:33:57 +0800] "GET /stat HTTP/1.1" 200 1327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:35:01 +0800] "GET /room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:35:07 +0800] "GET /live HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:35:15 +0800] "GET /live/room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:35:20 +0800] "GET /room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:35:29 +0800] "GET /stats HTTP/1.1" 200 1346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:36:10 +0800] "GET /stats HTTP/1.1" 200 1351 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:43:48 +0800] "GET /live/room HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:44:07 +0800] "GET /live?port=1935 HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:44:12 +0800] "GET /?port=1935 HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:44:17 +0800] "GET /room?port=1935 HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:44:22 +0800] "GET /stat HTTP/1.1" 200 1351 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:45:01 +0800] PUBLISH "live" "room" "" - 503212012 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (11m 8s)
+127.0.0.1 - - [09/Aug/2020:18:45:06 +0800] "GET /stat HTTP/1.1" 200 610 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:48:23 +0800] "GET /stat HTTP/1.1" 200 593 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:48:31 +0800] "GET /live HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:15 +0800] "GET /live HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:16 +0800] "GET /live HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:26 +0800] "GET /live HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:34 +0800] "GET /liveroom HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:39 +0800] "GET /live/room HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:53:41 +0800] "GET /live/room HTTP/1.1" 500 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:53:43 +0800] "GET /vd.html HTTP/1.1" 200 1009 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:54:20 +0800] PUBLISH "live" "room" "" - 58408640 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (1m 16s)
+127.0.0.1 - - [09/Aug/2020:18:55:20 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 29945124 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:55:20 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 29945367 "" "flv_live 1.1" (1m 36s)
+192.168.52.51 - - [09/Aug/2020:18:55:39 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:55:46 +0800] PUBLISH "live" "room" "" - 9630048 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (11s)
+192.168.52.51 - - [09/Aug/2020:18:56:38 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:56:38 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 10666055 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:56:38 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 10666298 "" "flv_live 1.1" (58s)
+127.0.0.1 [09/Aug/2020:18:56:48 +0800] PUBLISH "live" "room" "" - 6638114 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (14s)
+127.0.0.1 - - [09/Aug/2020:18:57:48 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 4284465 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:57:48 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 4284708 "" "flv_live 1.1" (1m 10s)
+192.168.52.51 - - [09/Aug/2020:18:58:44 +0800] "GET /vd.html HTTP/1.1" 200 1055 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+192.168.52.51 - - [09/Aug/2020:18:58:48 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 - - [09/Aug/2020:18:58:48 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 6550422 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:58:48 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 6550665 "" "flv_live 1.1" (4s)
+127.0.0.1 [09/Aug/2020:18:58:54 +0800] PUBLISH "live" "room" "" - 12597205 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (14s)
+127.0.0.1 - - [09/Aug/2020:18:59:54 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 6750880 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:18:59:54 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 6751123 "" "flv_live 1.1" (1m 5s)
+192.168.52.51 - - [09/Aug/2020:19:12:56 +0800] "GET /vd.html HTTP/1.1" 200 1037 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:13:07 +0800] PUBLISH "live" "room" "" - 3992204 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (3s)
+127.0.0.1 - - [09/Aug/2020:19:14:07 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 3995516 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:14:07 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 3995759 "" "flv_live 1.1" (1m 10s)
+192.168.52.51 - - [09/Aug/2020:19:17:06 +0800] "GET /vd.html HTTP/1.1" 200 1070 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:17:16 +0800] PUBLISH "live" "room" "" - 3972431 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (4s)
+127.0.0.1 - - [09/Aug/2020:19:18:16 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 3976538 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:18:16 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 3976781 "" "flv_live 1.1" (1m 9s)
+192.168.52.51 - - [09/Aug/2020:19:18:29 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:20:16 +0800] PUBLISH "live" "room" "" - 82269237 631 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (1m 49s)
+127.0.0.1 - - [09/Aug/2020:19:21:16 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 81220500 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:21:16 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 81220743 "" "flv_live 1.1" (2m 46s)
+192.168.52.51 - - [09/Aug/2020:19:44:01 +0800] "GET /vd.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:44:26 +0800] PUBLISH "live" "room" "" - 12038099 751 "" "FMLE/3.0 (compatible; Lavf58.49.100)" (15s)
+127.0.0.1 - - [09/Aug/2020:19:44:31 +0800] "GET /live?port=1935&app=live&stream=room HTTP/1.1" 200 12041341 "http://192.168.52.51:8080/vd.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"
+127.0.0.1 [09/Aug/2020:19:44:31 +0800] PLAY "live" "room" "port=1935&app=live&stream=room" - 0 12041584 "" "flv_live 1.1" (29s)
+127.0.0.1 - - [12/Oct/2020:17:55:30 +0800] "GET /live?port=1935&app=live&stream=room1-GS01 HTTP/1.1" 000 0 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 [12/Oct/2020:17:55:30 +0800] PLAY "live" "room1-GS01" "port=1935&app=live&stream=room1-GS01" - 0 0 "" "flv_live 1.1" (1m 0s)
+127.0.0.1 - - [12/Oct/2020:17:56:32 +0800] "GET /live?port=1935&app=live&stream=room1-GS01 HTTP/1.0" 000 0 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 [12/Oct/2020:17:56:32 +0800] PLAY "live" "room1-GS01" "port=1935&app=live&stream=room1-GS01" - 0 0 "" "flv_live 1.1" (1m 0s)
+127.0.0.1 - - [12/Oct/2020:17:57:22 +0800] "GET /live/room1-GS01 HTTP/1.1" 500 178 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 - - [12/Oct/2020:17:57:24 +0800] "GET /live/room1-GS01 HTTP/1.0" 500 178 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 - - [12/Oct/2020:17:57:41 +0800] "GET /live/room1-GS01 HTTP/1.1" 500 178 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 - - [12/Oct/2020:17:57:43 +0800] "GET /live/room1-GS01 HTTP/1.0" 500 178 "-" "VLC/3.0.11 LibVLC/3.0.11"
+127.0.0.1 [12/Oct/2020:17:58:58 +0800] PLAY "live" "rooma1" "" - 372 436 "" "LNX 9,0,124,2" (48s)
+127.0.0.1 [12/Oct/2020:17:58:58 +0800] PLAY "live" "room-GS01" "" - 378 5204274 "" "LNX 9,0,124,2" (53s)
+127.0.0.1 [12/Oct/2020:17:59:18 +0800] PLAY "live" "room-GS01" "" - 414 13369969 "" "LNX 9,0,124,2" (14s)
+127.0.0.1 [12/Oct/2020:18:07:18 +0800] PUBLISH "live" "room-GS01" "" - 594987503 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (13m 8s)
+127.0.0.1 [12/Oct/2020:20:33:02 +0800] PUBLISH "live" "room-GS01" "" - 168136499 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (3m 42s)
+127.0.0.1 [12/Oct/2020:20:35:37 +0800] PLAY "live" "room-GS01" "" - 1013 200665956 "" "LNX 9,0,124,2" (5m 11s)
+127.0.0.1 - - [12/Oct/2020:20:35:47 +0800] "\x03\x00\x00\x00\x00\x09\x00|\x02\xF7xU\x1E\xCE\xAB\x8E\x1E6/\x07\xC5\x86\x8Ap\xB2f\xD4\x02 \xE5\x08a\x18\xA2.6\x97\xD5\xFC+c)\xC2.\xE7\xC7\xC9\xB0\xB5\xB3E\xDF\xA89\x8F\xEA;\xC8y \x8A\x10hBZ\xA1\x17L\xB5rX\xCF\xEB\xE2M\xA4.\xC4\xFF\x9D\xA1\x9C{@o\x18\xC9[\xFD\xD0N\xE4\x8Bo\x832\x14\xA4{\x8B\xF6\x8E\xB0RT\xE2Z\xE9\xA9\xA8\xB4\x96\xC5Ion\x9C\xD7\xC6\x8C\xB6\xBC\xC8Ai\xE6\x7F>7/\xFE\x18m\xA8Q8b\xC5\xAF\xDE\xB5\xA1!\x8A\x86\x0B\xAC\xCD\xD8i\xB2S\xDB\xAB\x8A\x0E\xFBY\xA4\x8CD \x99\x87^U\xB7O\xD0z\x1Bi\xAF0>\x09\x98s\xCBw\xE2\xD9\xE2\xC4t\x1E\xB1\xF5\x06\xA7\xF0\xB2\x96*\xF9\x1FPQ\xC8\x90\xA3 \x99OL\x8B6\xA0\x1F\xA9\xC0\xF1_K|\xF7\xB6\xC3\x81}\xA6\x09\x18a\x1D;\x02\xFF|\xC9@8\x93u7\xD38.Ak\xD5uw\x83M\xF9\xCA\xF7H5!P\xCE\x92\xD0\xDB\xB4\x0E\x87\x1F\xC3d\xE1\x8B~5i\xE3\x98v\xC1\xAE\x0C\xB7\x9F\xF6\xD7\xAB2\xF9\xF0\x11\x86\x9C\x8D\xA4\x19\x1E\xF4m<\x1B\xC6\xB7-\x83\x81/\x22C\xD1u*A&2\xD6j u\xF5\xD3\x02\xF4\x5C\xDF+\x98\xB8\x02\xB7\x98\x05\xDCH7\xD8N\xDE\xD1\xCCB\xCB\xA7\xEE\xC3\x13{\xF8m\xD0\xB2\xD7\xF6$\xD5!\xA3\xFFe[\xCF" 400 158 "-" "-"
+127.0.0.1 [12/Oct/2020:20:40:47 +0800] PUBLISH "live" "room-GS01" "" - 314227998 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (6m 56s)
+127.0.0.1 - - [12/Oct/2020:20:41:08 +0800] "GET /live?port=1935&app=live&stream=room-GS01 HTTP/1.1" 200 91841566 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
+127.0.0.1 [12/Oct/2020:20:41:08 +0800] PLAY "live" "room-GS01" "port=1935&app=live&stream=room-GS01" - 0 91841809 "" "flv_live 1.1" (2m 19s)
+127.0.0.1 - - [12/Oct/2020:20:46:40 +0800] "GET /live?port=1935&app=live&stream=room-GS01 HTTP/1.1" 200 158676128 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
+127.0.0.1 [12/Oct/2020:20:46:40 +0800] PLAY "live" "room-GS01" "port=1935&app=live&stream=room-GS01" - 0 158676371 "" "flv_live 1.1" (3m 27s)
+127.0.0.1 [12/Oct/2020:20:50:03 +0800] PUBLISH "live" "room-GS01" "" - 344224927 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (7m 35s)
+127.0.0.1 - - [16/Oct/2020:17:47:59 +0800] "GET /live?port=1935&app=live&stream=room-GS01 HTTP/1.1" 200 21844875 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
+127.0.0.1 [16/Oct/2020:17:47:59 +0800] PLAY "live" "room-GS01" "port=1935&app=live&stream=room-GS01" - 0 21845118 "" "flv_live 1.1" (25s)
+127.0.0.1 [16/Oct/2020:17:53:29 +0800] PUBLISH "live" "room-GS01" "" - 328254676 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (7m 14s)
+127.0.0.1 [16/Oct/2020:17:54:17 +0800] PUBLISH "live" "room-GS01" "" - 2639275 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (2s)
+127.0.0.1 - - [16/Oct/2020:17:55:17 +0800] "GET /live?port=1935&app=live&stream=room-GS01 HTTP/1.1" 200 86190619 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
+127.0.0.1 [16/Oct/2020:17:55:17 +0800] PLAY "live" "room-GS01" "port=1935&app=live&stream=room-GS01" - 0 86190862 "" "flv_live 1.1" (3m 36s)
+127.0.0.1 [16/Oct/2020:17:59:39 +0800] PUBLISH "live" "room-GS01" "" - 3605057 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (3s)
+127.0.0.1 [16/Oct/2020:20:22:08 +0800] PUBLISH "live" "room-GS01" "" - 20463883 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (26s)
+127.0.0.1 [16/Oct/2020:20:23:12 +0800] PUBLISH "live" "room-GS01" "" - 34227939 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (44s)
+127.0.0.1 [16/Oct/2020:20:28:40 +0800] PUBLISH "live" "room-GS01" "" - 340 525 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (0s)
+127.0.0.1 [16/Oct/2020:20:31:02 +0800] PUBLISH "live" "room-GS01" "" - 267684140 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (5m 54s)
+127.0.0.1 [16/Oct/2020:21:04:11 +0800] PUBLISH "live" "room-GS01" "" - 1452743808 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (32m 12s)
+127.0.0.1 [16/Oct/2020:21:04:42 +0800] PUBLISH "live" "room-GS01" "" - 4229703 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (4s)
+127.0.0.1 [16/Oct/2020:21:17:36 +0800] PUBLISH "live" "room-GS01" "" - 6746102 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (7s)
+127.0.0.1 [17/Oct/2020:10:07:47 +0800] PUBLISH "live" "room-GS01" "" - 4228090 522 "" "FMLE/3.0 (compatible; Lavf58.51.101)" (4s)
