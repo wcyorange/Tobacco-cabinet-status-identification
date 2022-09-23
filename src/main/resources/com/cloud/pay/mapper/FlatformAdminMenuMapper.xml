@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.pay.mapper.FlatformAdminMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.FlatformAdminMenu" >
+    <id column="au_id" property="auId" jdbcType="INTEGER" />
+    <result column="au_url" property="auUrl" jdbcType="VARCHAR" />
+    <result column="au_title" property="auTitle" jdbcType="CHAR" />
+    <result column="au_info" property="auInfo" jdbcType="VARCHAR" />
+    <result column="au_level" property="auLevel" jdbcType="INTEGER" />
+    <result column="au_clickable" property="auClickable" jdbcType="INTEGER" />
+    <result column="au_p_id" property="auPId" jdbcType="INTEGER" />
+    <result column="au_sort" property="auSort" jdbcType="INTEGER" />
+    <result column="au_state" property="auState" jdbcType="INTEGER" />
+    <result column="au_class" property="auClass" jdbcType="CHAR" />
+    <result column="au_type" property="auType" jdbcType="INTEGER" />
+    <result column="u_id" property="uId" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="delete_time" property="deleteTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    au_id, au_url, au_title, au_info, au_level, au_clickable, au_p_id, au_sort, au_state,
+    au_class, au_type, u_id, create_time, delete_status, delete_time
+  </sql>
+  <select id="findByUid" parameterType="Integer" resultMap="BaseResultMap">
+    select * from flatform_admin_menu where u_id = #{uid}
+  </select>
+  <select id="findAll" resultMap="BaseResultMap">
+    select * from flatform_admin_menu
+  </select>
+  <select id="findById" parameterType="Integer" resultMap="BaseResultMap">
+    select * from flatform_admin_menu where au_id = #{id}
+  </select>
+  <select id="findByAuLevel" parameterType="Integer" resultMap="BaseResultMap">
+        select  * from flatform_admin_menu where au_level = #{level}
+  </select>
+  <insert id="insert" parameterType="com.cloud.pay.entity.FlatformAdminMenu" >
+    insert into flatform_admin_menu
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="auId != null" >
+        au_id,
+      </if>
+      <if test="auUrl != null" >
+        au_url,
+      </if>
+      <if test="auTitle != null" >
+        au_title,
+      </if>
+      <if test="auInfo != null" >
+        au_info,
+      </if>
+      <if test="auLevel != null" >
+        au_level,
+      </if>
+      <if test="auClickable != null" >
+        au_clickable,
+      </if>
+      <if test="auPId != null" >
+        au_p_id,
+      </if>
+      <if test="auSort != null" >
+        au_sort,
+      </if>
+      <if test="auState != null" >
+        au_state,
+      </if>
+      <if test="auClass != null" >
+        au_class,
+      </if>
+      <if test="auType != null" >
+        au_type,
+      </if>
+      <if test="uId != null" >
+        u_id,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="deleteTime != null" >
+        delete_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="auId != null" >
+        #{auId,jdbcType=INTEGER},
+      </if>
+      <if test="auUrl != null" >
+        #{auUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="auTitle != null" >
+        #{auTitle,jdbcType=CHAR},
+      </if>
+      <if test="auInfo != null" >
+        #{auInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="auLevel != null" >
+        #{auLevel,jdbcType=INTEGER},
+      </if>
+      <if test="auClickable != null" >
+        #{auClickable,jdbcType=INTEGER},
+      </if>
+      <if test="auPId != null" >
+        #{auPId,jdbcType=INTEGER},
+      </if>
+      <if test="auSort != null" >
+        #{auSort,jdbcType=INTEGER},
+      </if>
+      <if test="auState != null" >
+        #{auState,jdbcType=INTEGER},
+      </if>
+      <if test="auClass != null" >
+        #{auClass,jdbcType=CHAR},
+      </if>
+      <if test="auType != null" >
+        #{auType,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null" >
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="update" parameterType="com.cloud.pay.entity.FlatformAdminMenu" >
+    update flatform_admin_menu
+    <set >
+      <if test="auUrl != null" >
+        au_url = #{auUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="auTitle != null" >
+        au_title = #{auTitle,jdbcType=CHAR},
+      </if>
+      <if test="auInfo != null" >
+        au_info = #{auInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="auLevel != null" >
+        au_level = #{auLevel,jdbcType=INTEGER},
+      </if>
+      <if test="auClickable != null" >
+        au_clickable = #{auClickable,jdbcType=INTEGER},
+      </if>
+      <if test="auPId != null" >
+        au_p_id = #{auPId,jdbcType=INTEGER},
+      </if>
+      <if test="auSort != null" >
+        au_sort = #{auSort,jdbcType=INTEGER},
+      </if>
+      <if test="auState != null" >
+        au_state = #{auState,jdbcType=INTEGER},
+      </if>
+      <if test="auClass != null" >
+        au_class = #{auClass,jdbcType=CHAR},
+      </if>
+      <if test="auType != null" >
+        au_type = #{auType,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null" >
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where au_id = #{auId,jdbcType=INTEGER}
+  </update>
+  <update id="delete" parameterType="com.cloud.pay.entity.FlatformAdminMenu" >
+    update flatform_admin_menu
+    <set >
+      <if test="auUrl != null" >
+        au_url = #{auUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="auTitle != null" >
+        au_title = #{auTitle,jdbcType=CHAR},
+      </if>
+      <if test="auInfo != null" >
+        au_info = #{auInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="auLevel != null" >
+        au_level = #{auLevel,jdbcType=INTEGER},
+      </if>
+      <if test="auClickable != null" >
+        au_clickable = #{auClickable,jdbcType=INTEGER},
+      </if>
+      <if test="auPId != null" >
+        au_p_id = #{auPId,jdbcType=INTEGER},
+      </if>
+      <if test="auSort != null" >
+        au_sort = #{auSort,jdbcType=INTEGER},
+      </if>
+      <if test="auState != null" >
+        au_state = #{auState,jdbcType=INTEGER},
+      </if>
+      <if test="auClass != null" >
+        au_class = #{auClass,jdbcType=CHAR},
+      </if>
+      <if test="auType != null" >
+        au_type = #{auType,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null" >
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where au_id = #{auId,jdbcType=INTEGER}
+  </update>
+  <select id="findAllPage" parameterType="com.cloud.pay.entity.FlatformAdminGroup" resultMap="BaseResultMap">
+    select  <include refid="Base_Column_List"/> from flatform_admin_menu
+    <where>
+      <if test="auTitle!=null and auTitle!=''">
+         au_title  like #{auTitle} and
+      </if>
+      delete_status = 0
+    </where>
+  </select>
+  <select id="count" parameterType="com.cloud.pay.entity.FlatformAdminGroup" resultType="Integer">
+    select  count(*) from flatform_admin_menu
+    <where>
+      <if test="auTitle!=null and auTitle!=''">
+        au_title like #{auTitle} and
+      </if>
+      delete_status = 0
+    </where>
+  </select>
+  <select id="findByType" parameterType="String" resultMap="BaseResultMap">
+     select * from flatform_admin_menu where au_type = #{type}
+  </select>
+</mapper>

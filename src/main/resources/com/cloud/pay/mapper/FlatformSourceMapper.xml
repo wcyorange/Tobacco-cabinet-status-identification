@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.pay.mapper.FlatformSourceMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.FlatformSource" >
+    <id column="s_id" property="sId" jdbcType="INTEGER" />
+    <result column="s_type" property="sType" jdbcType="INTEGER" />
+    <result column="s_name" property="sName" jdbcType="VARCHAR" />
+    <result column="s_desc" property="sDesc" jdbcType="VARCHAR" />
+    <result column="s_mobile" property="sMobile" jdbcType="VARCHAR" />
+    <result column="s_address" property="sAddress" jdbcType="VARCHAR" />
+    <result column="s_star" property="sStar" jdbcType="INTEGER" />
+    <result column="v1" property="v1" jdbcType="VARCHAR" />
+    <result column="v2" property="v2" jdbcType="VARCHAR" />
+    <result column="v3" property="v3" jdbcType="VARCHAR" />
+    <result column="v4" property="v4" jdbcType="VARCHAR" />
+    <result column="v5" property="v5" jdbcType="VARCHAR" />
+    <result column="v6" property="v6" jdbcType="VARCHAR" />
+    <result column="v7" property="v7" jdbcType="VARCHAR" />
+    <result column="s_money" property="sMoney" jdbcType="VARCHAR" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="delete_time" property="deleteTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    s_id, s_type, s_name, s_desc, s_mobile, s_address, s_star, v1, v2, v3, v4, v5, v6,
+    v7, s_money, delete_status, delete_time
+  </sql>
+  <insert id="insert" parameterType="com.cloud.pay.entity.FlatformSource" >
+    insert into flatform_source
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="sId != null" >
+        s_id,
+      </if>
+      <if test="sType != null" >
+        s_type,
+      </if>
+      <if test="sName != null" >
+        s_name,
+      </if>
+      <if test="sDesc != null" >
+        s_desc,
+      </if>
+      <if test="sMobile != null" >
+        s_mobile,
+      </if>
+      <if test="sAddress != null" >
+        s_address,
+      </if>
+      <if test="sStar != null" >
+        s_star,
+      </if>
+      <if test="v1 != null" >
+        v1,
+      </if>
+      <if test="v2 != null" >
+        v2,
+      </if>
+      <if test="v3 != null" >
+        v3,
+      </if>
+      <if test="v4 != null" >
+        v4,
+      </if>
+      <if test="v5 != null" >
+        v5,
+      </if>
+      <if test="v6 != null" >
+        v6,
+      </if>
+      <if test="v7 != null" >
+        v7,
+      </if>
+      <if test="sMoney != null" >
+        s_money,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="deleteTime != null" >
+        delete_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="sId != null" >
+        #{sId,jdbcType=INTEGER},
+      </if>
+      <if test="sType != null" >
+        #{sType,jdbcType=INTEGER},
+      </if>
+      <if test="sName != null" >
+        #{sName,jdbcType=VARCHAR},
+      </if>
+      <if test="sDesc != null" >
+        #{sDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="sMobile != null" >
+        #{sMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="sAddress != null" >
+        #{sAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="sStar != null" >
+        #{sStar,jdbcType=INTEGER},
+      </if>
+      <if test="v1 != null" >
+        #{v1,jdbcType=VARCHAR},
+      </if>
+      <if test="v2 != null" >
+        #{v2,jdbcType=VARCHAR},
+      </if>
+      <if test="v3 != null" >
+        #{v3,jdbcType=VARCHAR},
+      </if>
+      <if test="v4 != null" >
+        #{v4,jdbcType=VARCHAR},
+      </if>
+      <if test="v5 != null" >
+        #{v5,jdbcType=VARCHAR},
+      </if>
+      <if test="v6 != null" >
+        #{v6,jdbcType=VARCHAR},
+      </if>
+      <if test="v7 != null" >
+        #{v7,jdbcType=VARCHAR},
+      </if>
+      <if test="sMoney != null" >
+        #{sMoney,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="update" parameterType="com.cloud.pay.entity.FlatformSource" >
+    update flatform_source
+    <set >
+      <if test="sType != null" >
+        s_type = #{sType,jdbcType=INTEGER},
+      </if>
+      <if test="sName != null" >
+        s_name = #{sName,jdbcType=VARCHAR},
+      </if>
+      <if test="sDesc != null" >
+        s_desc = #{sDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="sMobile != null" >
+        s_mobile = #{sMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="sAddress != null" >
+        s_address = #{sAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="sStar != null" >
+        s_star = #{sStar,jdbcType=INTEGER},
+      </if>
+      <if test="v1 != null" >
+        v1 = #{v1,jdbcType=VARCHAR},
+      </if>
+      <if test="v2 != null" >
+        v2 = #{v2,jdbcType=VARCHAR},
+      </if>
+      <if test="v3 != null" >
+        v3 = #{v3,jdbcType=VARCHAR},
+      </if>
+      <if test="v4 != null" >
+        v4 = #{v4,jdbcType=VARCHAR},
+      </if>
+      <if test="v5 != null" >
+        v5 = #{v5,jdbcType=VARCHAR},
+      </if>
+      <if test="v6 != null" >
+        v6 = #{v6,jdbcType=VARCHAR},
+      </if>
+      <if test="v7 != null" >
+        v7 = #{v7,jdbcType=VARCHAR},
+      </if>
+      <if test="sMoney != null" >
+        s_money = #{sMoney,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where s_id = #{sId,jdbcType=INTEGER}
+  </update>
+  <select id="findAll" parameterType="com.cloud.pay.entity.FlatformSource" resultMap="BaseResultMap">
+    select * from flatform_source;
+  </select>
+  <select id="count" parameterType="com.cloud.pay.entity.FlatformSource" resultType="Integer">
+    select count(*) from flatform_source;
+  </select>
+  <select id="findById" parameterType="Integer" resultMap="BaseResultMap">
+    select * from flatform_source where s_id = #{id}
+  </select>
+  <delete id="delete" parameterType="Integer" >
+    delete from flatform_source where s_id = #{id}
+  </delete>
+</mapper>

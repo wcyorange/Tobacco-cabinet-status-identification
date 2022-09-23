@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.pay.mapper.FlatformCostFlowMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.FlatformCostFlow" >
+    <id column="cf_id" property="cfId" jdbcType="INTEGER" />
+    <result column="cf_type" property="cfType" jdbcType="INTEGER" />
+    <result column="cf_time" property="cfTime" jdbcType="VARCHAR" />
+    <result column="par_id" property="parId" jdbcType="INTEGER" />
+    <result column="cus_name" property="cusName" jdbcType="VARCHAR" />
+    <result column="cus_mobile" property="cusMobile" jdbcType="VARCHAR" />
+    <result column="cus_address" property="cusAddress" jdbcType="VARCHAR" />
+    <result column="cus_prepare_time" property="cusPrepareTime" jdbcType="VARCHAR" />
+    <result column="cus_desc" property="cusDesc" jdbcType="VARCHAR" />
+    <result column="s_id" property="sId" jdbcType="INTEGER" />
+    <result column="money" property="money" jdbcType="REAL" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="delete_time" property="deleteTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="BaseResultMap1" type="com.cloud.pay.entity.FlatformCostFlow" extends="BaseResultMap">
+    <association property="flatformPartner" javaType="com.cloud.pay.entity.FlatformPartner">
+      <id column="par_id" property="parId" jdbcType="INTEGER" />
+      <result column="par_name" property="parName" jdbcType="VARCHAR" />
+    </association>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    cf_id, cf_type, cf_time, flatform_cost_flow.par_id, cus_name, cus_mobile, cus_address, cus_prepare_time,
+    cus_desc, s_id, money, flatform_cost_flow.status, delete_status, delete_time
+  </sql>
+  <insert id="insert" parameterType="com.cloud.pay.entity.FlatformCostFlow" >
+    insert into flatform_cost_flow
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="cfId != null" >
+        cf_id,
+      </if>
+      <if test="cfType != null" >
+        cf_type,
+      </if>
+      <if test="cfTime != null" >
+        cf_time,
+      </if>
+      <if test="parId != null" >
+        flatform_cost_flow.par_id,
+      </if>
+      <if test="cusName != null" >
+        cus_name,
+      </if>
+      <if test="cusMobile != null" >
+        cus_mobile,
+      </if>
+      <if test="cusAddress != null" >
+        cus_address,
+      </if>
+      <if test="cusPrepareTime != null" >
+        cus_prepare_time,
+      </if>
+      <if test="cusDesc != null" >
+        cus_desc,
+      </if>
+      <if test="sId != null" >
+        s_id,
+      </if>
+      <if test="money != null" >
+        money,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="deleteTime != null" >
+        delete_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="cfId != null" >
+        #{cfId,jdbcType=INTEGER},
+      </if>
+      <if test="cfType != null" >
+        #{cfType,jdbcType=INTEGER},
+      </if>
+      <if test="cfTime != null" >
+        #{cfTime,jdbcType=VARCHAR},
+      </if>
+      <if test="parId != null" >
+        #{parId,jdbcType=INTEGER},
+      </if>
+      <if test="cusName != null" >
+        #{cusName,jdbcType=VARCHAR},
+      </if>
+      <if test="cusMobile != null" >
+        #{cusMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="cusAddress != null" >
+        #{cusAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="cusPrepareTime != null" >
+        #{cusPrepareTime,jdbcType=VARCHAR},
+      </if>
+      <if test="cusDesc != null" >
+        #{cusDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="sId != null" >
+        #{sId,jdbcType=INTEGER},
+      </if>
+      <if test="money != null" >
+        #{money,jdbcType=REAL},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="update" parameterType="com.cloud.pay.entity.FlatformCostFlow" >
+    update flatform_cost_flow
+    <set >
+      <if test="cfType != null" >
+        cf_type = #{cfType,jdbcType=INTEGER},
+      </if>
+      <if test="cfTime != null" >
+        cf_time = #{cfTime,jdbcType=VARCHAR},
+      </if>
+      <if test="parId != null" >
+        flatform_cost_flow.par_id = #{parId,jdbcType=INTEGER},
+      </if>
+      <if test="cusName != null" >
+        cus_name = #{cusName,jdbcType=VARCHAR},
+      </if>
+      <if test="cusMobile != null" >
+        cus_mobile = #{cusMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="cusAddress != null" >
+        cus_address = #{cusAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="cusPrepareTime != null" >
+        cus_prepare_time = #{cusPrepareTime,jdbcType=VARCHAR},
+      </if>
+      <if test="cusDesc != null" >
+        cus_desc = #{cusDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="sId != null" >
+        s_id = #{sId,jdbcType=INTEGER},
+      </if>
+      <if test="money != null" >
+        money = #{money,jdbcType=REAL},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where cf_id = #{cfId,jdbcType=INTEGER}
+  </update>
+  <select id="findAll" parameterType="com.cloud.pay.entity.FlatformCostFlow" resultMap="BaseResultMap1">
+    select * from flatform_cost_flow ,flatform_partner
+    <where>
+      flatform_cost_flow.par_id = #{parId,jdbcType=INTEGER}
+      and flatform_cost_flow.par_id=flatform_partner.par_id
+      <if test="status !=null">
+        and flatform_cost_flow.status=#{status,jdbcType=INTEGER}
+      </if>
+      <if test="cfType !=null">
+        and cf_type = #{cfType,jdbcType=INTEGER}
+      </if>
+    </where>
+
+  </select>
+  <select id="count" parameterType="com.cloud.pay.entity.FlatformCostFlow" resultType="Integer">
+    select count(*) from flatform_cost_flow,flatform_partner
+      <where>
+        flatform_cost_flow.par_id = #{parId,jdbcType=INTEGER}
+        and flatform_cost_flow.par_id=flatform_partner.par_id
+        <if test="status !=null">
+          and flatform_cost_flow.status=#{status,jdbcType=INTEGER}
+        </if>
+        <if test="cfType !=null">
+          and cf_type = #{cfType,jdbcType=INTEGER}
+        </if>
+      </where>
+  </select>
+  <select id="findById" parameterType="Integer" resultMap="BaseResultMap1">
+    select * from flatform_cost_flow where cf_id = #{id}
+  </select>
+
+  <!--根据parId统计数量-->
+  <select id="countByParId" resultType="Integer">
+    select count(1) from flatform_cost_flow where  par_id=#{parId,jdbcType=INTEGER}
+  </select>
+  <delete id="delete" parameterType="Integer" >
+    delete from flatform_partner where cf_id  = #{id}
+  </delete>
+</mapper>

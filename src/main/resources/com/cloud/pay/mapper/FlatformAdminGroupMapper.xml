@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.pay.mapper.FlatformAdminGroupMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.pay.entity.FlatformAdminGroup" >
+    <id column="ag_id" property="agId" jdbcType="INTEGER" />
+    <result column="ag_name" property="agName" jdbcType="VARCHAR" />
+    <result column="ag_info" property="agInfo" jdbcType="VARCHAR" />
+    <result column="ag_status" property="agStatus" jdbcType="INTEGER" />
+    <result column="u_id" property="uId" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="VARCHAR" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="delete_time" property="deleteTime" jdbcType="VARCHAR" />
+    <result column="ag_auth" property="agAuth" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ag_id, ag_name, ag_info, ag_status, u_id, create_time, delete_status, delete_time,ag_auth
+  </sql>
+  <select id="findByUid" parameterType="Integer" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"/> from flatform_admin_group where u_id = #{uid}
+  </select>
+  <insert id="insert" parameterType="com.cloud.pay.entity.FlatformAdminGroup" >
+    insert into flatform_admin_group
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="agId != null" >
+        ag_id,
+      </if>
+      <if test="agName != null" >
+        ag_name,
+      </if>
+      <if test="agInfo != null" >
+        ag_info,
+      </if>
+      <if test="agStatus != null" >
+        ag_status,
+      </if>
+      <if test="uId != null" >
+        u_id,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="deleteTime != null" >
+        delete_time,
+      </if>
+      <if test="agAuth != null" >
+        ag_auth,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="agId != null" >
+        #{agId,jdbcType=INTEGER},
+      </if>
+      <if test="agName != null" >
+        #{agName,jdbcType=VARCHAR},
+      </if>
+      <if test="agInfo != null" >
+        #{agInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="agStatus != null" >
+        #{agStatus,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null" >
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        #{deleteTime,jdbcType=VARCHAR},
+      </if>
+      <if test="agAuth != null" >
+        #{agAuth,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="update" parameterType="com.cloud.pay.entity.FlatformAdminGroup" >
+    update flatform_admin_group
+    <set >
+      <if test="agName != null" >
+        ag_name = #{agName,jdbcType=VARCHAR},
+      </if>
+      <if test="agInfo != null" >
+        ag_info = #{agInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="agStatus != null" >
+        ag_status = #{agStatus,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null" >
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="deleteTime != null" >
+        delete_time = #{deleteTime,jdbcType=VARCHAR},
+      </if>
+      <if test="agAuth != null" >
+        ag_auth = #{agAuth,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where ag_id = #{agId,jdbcType=INTEGER}
+  </update>
+  <update id="delete" parameterType="com.cloud.pay.entity.FlatformAdminGroup">
+   update flatform_admin_group
+      <set >
+        <if test="agName != null" >
+          ag_name = #{agName,jdbcType=VARCHAR},
+        </if>
+        <if test="agInfo != null" >
+          ag_info = #{agInfo,jdbcType=VARCHAR},
+        </if>
+        <if test="agStatus != null" >
+          ag_status = #{agStatus,jdbcType=INTEGER},
+        </if>
+        <if test="uId != null" >
+          u_id = #{uId,jdbcType=INTEGER},
+        </if>
+        <if test="createTime != null" >
+          create_time = #{createTime,jdbcType=VARCHAR},
+        </if>
+        <if test="deleteStatus != null" >
+          delete_status = #{deleteStatus,jdbcType=INTEGER},
+        </if>
+        <if test="deleteTime != null" >
+          delete_time = #{deleteTime,jdbcType=VARCHAR},
+        </if>
+        <if test="agAuth != null" >
+          ag_auth = #{agAuth,jdbcType=LONGVARCHAR},
+        </if>
+      </set>
+    where ag_id = #{agId,jdbcType=INTEGER}
+  </update>
+  <select id="findById" parameterType="Integer" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"/> from flatform_admin_group where ag_id = #{id}
+  </select>
+  <select id="findAll" parameterType="com.cloud.pay.entity.FlatformAdminGroup" resultMap="BaseResultMap">
+     select <include refid="Base_Column_List"/> from flatform_admin_group
+     <where>
+       <if test="agName!=null and agName!=''">
+         ag_name = #{agName}
+       </if>
+     </where>
+  </select>
+  <select id="count" parameterType="com.cloud.pay.entity.FlatformAdminGroup" resultType="Integer">
+    select count(*) from flatform_admin_group
+    <where>
+      <if test="agName!=null and agName!=''">
+        ag_name = #{agName}
+      </if>
+    </where>
+  </select>
+</mapper>
